@@ -1,0 +1,29 @@
+{
+  "name": "cmlabs-backend-crawler",
+  "version": "1.0.0",
+  "description": "Production-grade web crawler service using Playwright for JavaScript-rendered page extraction",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "crawl": "node src/app.js crawl",
+    "install:browser": "npx playwright install chromium"
+  },
+  "keywords": [
+    "crawler",
+    "playwright",
+    "web-scraping",
+    "spa",
+    "ssr",
+    "pwa",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "p-limit": "^6.2.0",
+    "playwright": "^1.52.0",
+    "uuid": "^11.1.0"
+  }
+}
